@@ -15,6 +15,12 @@ class User:
 		}
 	]
 
+	def __init__(self, id, username, password):
+		""" Initialize objects. """
+		self.id = id,
+		self.username = username,
+		self.password = password
+
 	def addUser():
 		""" Method to create a new user. """
 		user = {
